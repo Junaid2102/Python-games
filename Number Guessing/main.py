@@ -1,5 +1,4 @@
 import random
-record = []
 number = random.randint(1,20)
 #print(number)        // We use it for printing the random number can say it is a cheat code.
 name = input("Enter your name: ")
