@@ -1,11 +1,11 @@
 import random
-number = random.randint(1,20)
 #print(number)        // We use it for printing the random number can say it is a cheat code.
 name = input("Enter your name: ")
 print("Hello " + name + " Welcome to the number guessing game !!!")
 confirmation = input("Do you wanna play (enter 'y' or 'n') ?")
 
 def game():
+    number = random.randint(1, 20)
     attempts = 0
     while confirmation == 'y':
         try:
